@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+* {
+    font-family: 'Comfortaa', sans-serif;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+@keyframes sweep{
+    0% {height: 40vh; background-color: white;}
+    50% {height: 15vh; background-color: black;}
+    75% {height: 65vh; background-color: orange;}
+    100% {height: 40vh; background-color: white;}
+}
+@keyframes sweep2{
+    0% {height: 40vh; background-color: black;}
+    50% {height: 65vh; background-color: white;}
+    75% {height: 15vh;  background-color: chocolate;}
+    100% {height: 40vh; background-color: black;}
+}
+.mine {
+    height: 50vh;
+    background-color: aqua;
+    animation-name: sweep;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.mine2 {
+    background-color: black;
+    height: 50vh;
+    animation-name: sweep2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
